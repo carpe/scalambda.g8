@@ -1,5 +1,6 @@
 
-# A [Giter8 template](http://www.foundweekends.org/giter8/Combined+Pages.html#Usage) for producing a Lambda Function (using scalambda). [For usage with sbt new](https://www.scala-sbt.org/1.x/docs/sbt-new-and-Templates.html)
+# A [Giter8 template](http://www.foundweekends.org/giter8/Combined+Pages.html#Usage) for producing a Lambda Function (using scalambda). 
+[For usage with sbt new](https://www.scala-sbt.org/1.x/docs/sbt-new-and-Templates.html)
 
 ## To get started immediately:
 
@@ -15,7 +16,7 @@ It will ask you four questions:
 - `name` - _will be formatted to the correct type in necessary places (META-INF, packages, README...)_
 - `organization` - _must be in the reverse-namespace format._ (example: `io.carpe`)
 - `package` - _must be in the reverse-namespace format (will default to the last two fields intelligently.)_
-- `awsregion` -  _AWS Region you'd like to deploy Lambda Function (only used in `terrafor/main.tf` file so it's easy to replace)._
+- `awsregion` -  _AWS Region you'd like to deploy Lambda Function (only used in `terraform/main.tf` file so it's easy to replace)._
 
 
 ## Requires
