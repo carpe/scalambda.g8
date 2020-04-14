@@ -11,7 +11,7 @@ Execute the preceding `sbt` command wherever you want to start a new scala-sbt p
 
 It will ask you four questions:
 
-- `functionName` - _include name and email for docker and scala artifacts._
+- `functionName` - _name of the Lambda Function class (use ClassCase)_
 - `name` - _will be formatted to the correct type in necessary places (META-INF, packages, README...)_
 - `organization` - _must be in the reverse-namespace format._ (example: `io.carpe`)
 - `package` - _must be in the reverse-namespace format (will default to the last two fields intelligently.)_
