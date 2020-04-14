@@ -1,7 +1,7 @@
 
-# A [Giter8 template](http://www.foundweekends.org/giter8/Combined+Pages.html#Usage) for producing a Lambda Function (using scalambda). [For usage with sbt new](https://www.scala-sbt.org/1.x/docs/sbt-new-and-Templates.html) #
+# A [Giter8 template](http://www.foundweekends.org/giter8/Combined+Pages.html#Usage) for producing a Lambda Function (using scalambda). [For usage with sbt new](https://www.scala-sbt.org/1.x/docs/sbt-new-and-Templates.html)
 
-# To get started immediately: #
+## To get started immediately:
 
 ```bash
 sbt --supershell=false new carpe/scalambda.g8
@@ -18,7 +18,7 @@ It will ask you four questions:
 - `awsregion` -  _AWS Region you'd like to deploy Lambda Function (only used in `terrafor/main.tf` file so it's easy to replace)._
 
 
-## Requires: ##
+## Requires
 
 - `sbt` 1.x or higher (or an older sbt with giter8 plugin configured)
 - little-to-no [understanding of giter8 or sbt new](https://www.scala-sbt.org/1.x/docs/sbt-new-and-Templates.html)
